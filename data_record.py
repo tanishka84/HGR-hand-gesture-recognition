@@ -2,8 +2,6 @@ import cv2 as cv
 import os
 import time
 
-
-
 def capture_hand_images(folder_path):
     try:
         # Initialize camera
