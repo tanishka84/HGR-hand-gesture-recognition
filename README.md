@@ -1,20 +1,40 @@
 # Hand Gesture Recognition with MediaPipe - YOLO Project
 
 ## Author
-Tanishka Badnaware
+**Tanishka Badnaware**
 
 ## Overview
-
-This project implements a **comprehensive hand gesture recognition system** combining MediaPipe for hand landmark detection with custom YOLO models trained on a curated dataset. The system supports both model training and real-time inference for static hand gesture recognition.
+This project implements a comprehensive hand gesture recognition system combining **MediaPipe** for hand landmark detection with custom **YOLO** models trained on a curated dataset. The system supports both model training and real-time inference for static hand gesture recognition.
 
 ## 🎥 Demo Video
-
 👉 [Click here to watch the demo video](https://github.com/tanishka84/HGR-hand-gesture-recognition/blob/main/output-hand-gestures/VIDEOS/output_gestures.mp4)
 
+## Technology Justification
+This project combines **MediaPipe** and **YOLO** to achieve robust, real-time recognition:
+- **MediaPipe** is used for hand detection and landmark extraction. It provides high accuracy and low-latency detection of 21 hand keypoints, making it ideal for real-time applications.
+- **YOLO** is employed for gesture classification. YOLO is a state-of-the-art object detection framework, which allows training custom models on hand gesture datasets. It ensures scalable performance and higher robustness than purely rules-based classification.
 
-**Supported Gestures:**
+This hybrid approach balances **efficiency** (via MediaPipe) and **accuracy/generalization** (via YOLO).
+
+## Gesture Logic Explanation
+The system detects and classifies gestures based on hand landmarks and trained YOLO models.
+
+- **Open Palm**: All five fingers extended.
+- **Fist**: All fingers folded into the palm.
+- **Peace Sign (V-Sign)**: Index and middle fingers extended, other fingers folded.
+- **Thumbs Up**: Thumb extended upward, other fingers folded.
+
+➡️ These four gestures meet the **minimum required set from the assignment**.  
+In addition, the system also supports:  
+- Call Me 🤙  
+- Dislike (Thumbs Down) 👎  
+- Good Job (Thumbs Up alternate) 👍  
+- Ok 👌  
+- Rock On 🤘  
+
+## Supported Gestures
 - Call Me
-- Dislike (Thumbs Down)  
+- Dislike (Thumbs Down)
 - Good Job (Thumbs Up)
 - Ok
 - Peace Sign
@@ -22,29 +42,25 @@ This project implements a **comprehensive hand gesture recognition system** comb
 - Fist
 - Open Palm
 
----
-
 ## Project Structure
-
-```
 HAND-GESTURE-APP/
 ├── hand-gesture-app/
 │   ├── HAND_GESTURE_DETECTION-1/        # YOLO Training Dataset
 │   │   ├── train/                       # Training set (80%)
-│   │   │   ├── images/                  # Training images
-│   │   │   └── labels/                  # YOLO format annotations (.txt)
+│   │   │   ├── images/
+│   │   │   └── labels/
 │   │   ├── valid/                       # Validation set (15%)
-│   │   │   ├── images/                  # Validation images
-│   │   │   ├── labels/                  # YOLO format annotations (.txt)
-│   │   │   └── labels.cache             # YOLO training cache
+│   │   │   ├── images/
+│   │   │   ├── labels/
+│   │   │   └── labels.cache
 │   │   ├── test/                        # Test set (5%)
-│   │   │   ├── images/                  # Test images
-│   │   │   └── labels/                  # YOLO format annotations (.txt)
-│   │   ├── data.yaml                    # YOLO dataset configuration
-│   │   ├── README.dataset.txt           # Dataset documentation
-│   │   └── README.roboflow.txt          # Roboflow export information
+│   │   │   ├── images/
+│   │   │   └── labels/
+│   │   ├── data.yaml
+│   │   ├── README.dataset.txt
+│   │   └── README.roboflow.txt
 ├── output-hand-gestures/                # Main application directory
-│   ├── VIDEOS/                          # Video outputs
+│   ├── VIDEOS/
 │   │   └── output_gestures.mp4          # ✅ Video saved here
 │   ├── snapshots/                       # ✅ Snapshots directly under main app
 │   │   ├── fist_1725186420.jpg
@@ -53,15 +69,13 @@ HAND-GESTURE-APP/
 │   └── logs/                            # Application logs
 │       └── gesture_log.csv              # ✅ CSV saved here
 │   ├── yolo_results/                    # Trained model checkpoints
-│   │   ├── hand_gesture_v1/             # First model version
-│   │   ├── hand_gesture_v12/            # Improved model version
-│   │   └── hand_gesture_v13/            # Latest model version
+│   │   ├── hand_gesture_v1/
+│   │   ├── hand_gesture_v12/
+│   │   └── hand_gesture_v13/
 │   ├── main.py                          # Real-time inference application
 │   ├── README.md                        # This documentation
 │   └── requirements.txt                 # Python dependencies
-```
 
----
 
 ## Features
 
