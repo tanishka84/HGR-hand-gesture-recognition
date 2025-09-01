@@ -43,24 +43,26 @@ In addition, the system also supports:
 - Open Palm
 
 ## Project Structure
+
+```
 HAND-GESTURE-APP/
 ├── hand-gesture-app/
 │   ├── HAND_GESTURE_DETECTION-1/        # YOLO Training Dataset
 │   │   ├── train/                       # Training set (80%)
-│   │   │   ├── images/
-│   │   │   └── labels/
+│   │   │   ├── images/                  # Training images
+│   │   │   └── labels/                  # YOLO format annotations (.txt)
 │   │   ├── valid/                       # Validation set (15%)
-│   │   │   ├── images/
-│   │   │   ├── labels/
-│   │   │   └── labels.cache
+│   │   │   ├── images/                  # Validation images
+│   │   │   ├── labels/                  # YOLO format annotations (.txt)
+│   │   │   └── labels.cache             # YOLO training cache
 │   │   ├── test/                        # Test set (5%)
-│   │   │   ├── images/
-│   │   │   └── labels/
-│   │   ├── data.yaml
-│   │   ├── README.dataset.txt
-│   │   └── README.roboflow.txt
+│   │   │   ├── images/                  # Test images
+│   │   │   └── labels/                  # YOLO format annotations (.txt)
+│   │   ├── data.yaml                    # YOLO dataset configuration
+│   │   ├── README.dataset.txt           # Dataset documentation
+│   │   └── README.roboflow.txt          # Roboflow export information
 ├── output-hand-gestures/                # Main application directory
-│   ├── VIDEOS/
+│   ├── VIDEOS/                          # Video outputs
 │   │   └── output_gestures.mp4          # ✅ Video saved here
 │   ├── snapshots/                       # ✅ Snapshots directly under main app
 │   │   ├── fist_1725186420.jpg
@@ -69,12 +71,15 @@ HAND-GESTURE-APP/
 │   └── logs/                            # Application logs
 │       └── gesture_log.csv              # ✅ CSV saved here
 │   ├── yolo_results/                    # Trained model checkpoints
-│   │   ├── hand_gesture_v1/
-│   │   ├── hand_gesture_v12/
-│   │   └── hand_gesture_v13/
+│   │   ├── hand_gesture_v1/             # First model version
+│   │   ├── hand_gesture_v12/            # Improved model version
+│   │   └── hand_gesture_v13/            # Latest model version
 │   ├── main.py                          # Real-time inference application
 │   ├── README.md                        # This documentation
 │   └── requirements.txt                 # Python dependencies
+```
+
+---
 
 
 ## Features
