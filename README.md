@@ -4,6 +4,11 @@
 
 This project implements a **comprehensive hand gesture recognition system** combining MediaPipe for hand landmark detection with custom YOLO models trained on a curated dataset. The system supports both model training and real-time inference for static hand gesture recognition.
 
+## 🎥 Demo Video
+
+👉 [Click here to watch the demo video](https://github.com/tanishka84/HGR-hand-gesture-recognition/blob/main/output-hand-gestures/VIDEOS/output_gestures.mp4)
+
+
 **Supported Gestures:**
 - Call Me
 - Dislike (Thumbs Down)  
