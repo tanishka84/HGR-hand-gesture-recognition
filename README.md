@@ -1,5 +1,8 @@
 # Hand Gesture Recognition with MediaPipe - YOLO Project
 
+## Author
+Tanishka Badnaware
+
 ## Overview
 
 This project implements a **comprehensive hand gesture recognition system** combining MediaPipe for hand landmark detection with custom YOLO models trained on a curated dataset. The system supports both model training and real-time inference for static hand gesture recognition.
