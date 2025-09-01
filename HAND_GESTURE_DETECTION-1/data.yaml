@@ -1,0 +1,19 @@
+names:
+- Call Me
+- Dislike
+- Good Job
+- Ok
+- Peace
+- Rock On
+- Fist
+- open Plam
+nc: 8
+roboflow:
+  license: CC BY 4.0
+  project: hand_gesture_detection-xdcpy-lcdz7
+  url: https://universe.roboflow.com/tanishka-computer-vision-wroksapce/hand_gesture_detection-xdcpy-lcdz7/dataset/1
+  version: 1
+  workspace: tanishka-computer-vision-wroksapce
+test: /content/datasets/yolo-hand-gestures-detection/HAND_GESTURE_DETECTION-1/test/images
+train: /content/datasets/yolo-hand-gestures-detection/HAND_GESTURE_DETECTION-1/train/images
+val: /content/datasets/yolo-hand-gestures-detection/HAND_GESTURE_DETECTION-1/valid/images

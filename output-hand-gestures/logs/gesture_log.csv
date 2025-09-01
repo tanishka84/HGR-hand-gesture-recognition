@@ -1,0 +1,22 @@
+timestamp,datetime,gesture,confidence,snapshot_path
+1756721158.3822498,2025-09-01 15:35:58,Call Me,0.9,D:\Internship Projects\hand-gesture-app\output-hand-gestures\snapshots\call_me_1756721158.jpg
+1756721158.4256804,2025-09-01 15:35:58,Good Job,0.9,D:\Internship Projects\hand-gesture-app\output-hand-gestures\snapshots\good_job_1756721158.jpg
+1756721158.4835355,2025-09-01 15:35:58,Call Me,0.9,D:\Internship Projects\hand-gesture-app\output-hand-gestures\snapshots\call_me_1756721158.jpg
+1756721158.5141222,2025-09-01 15:35:58,Good Job,0.9,D:\Internship Projects\hand-gesture-app\output-hand-gestures\snapshots\good_job_1756721158.jpg
+1756721160.7976556,2025-09-01 15:36:00,Open Palm,0.9,D:\Internship Projects\hand-gesture-app\output-hand-gestures\snapshots\open_palm_1756721160.jpg
+1756721162.046274,2025-09-01 15:36:02,Call Me,0.9,D:\Internship Projects\hand-gesture-app\output-hand-gestures\snapshots\call_me_1756721162.jpg
+1756721162.081215,2025-09-01 15:36:02,Good Job,0.9,D:\Internship Projects\hand-gesture-app\output-hand-gestures\snapshots\good_job_1756721162.jpg
+1756721163.7355053,2025-09-01 15:36:03,Dislike,0.9,D:\Internship Projects\hand-gesture-app\output-hand-gestures\snapshots\dislike_1756721163.jpg
+1756721165.9219406,2025-09-01 15:36:05,Fist,0.9,D:\Internship Projects\hand-gesture-app\output-hand-gestures\snapshots\fist_1756721165.jpg
+1756721166.015255,2025-09-01 15:36:06,Good Job,0.9,D:\Internship Projects\hand-gesture-app\output-hand-gestures\snapshots\good_job_1756721166.jpg
+1756721166.0499694,2025-09-01 15:36:06,Peace Sign,0.9,D:\Internship Projects\hand-gesture-app\output-hand-gestures\snapshots\peace_sign_1756721166.jpg
+1756721168.4810774,2025-09-01 15:36:08,Open Palm,0.9,D:\Internship Projects\hand-gesture-app\output-hand-gestures\snapshots\open_palm_1756721168.jpg
+1756721169.7280467,2025-09-01 15:36:09,Good Job,0.9,D:\Internship Projects\hand-gesture-app\output-hand-gestures\snapshots\good_job_1756721169.jpg
+1756721169.764047,2025-09-01 15:36:09,Fist,0.9,D:\Internship Projects\hand-gesture-app\output-hand-gestures\snapshots\fist_1756721169.jpg
+1756721171.408739,2025-09-01 15:36:11,Good Job,0.9,D:\Internship Projects\hand-gesture-app\output-hand-gestures\snapshots\good_job_1756721171.jpg
+1756721171.4723845,2025-09-01 15:36:11,Call Me,0.9,D:\Internship Projects\hand-gesture-app\output-hand-gestures\snapshots\call_me_1756721171.jpg
+1756721172.5141375,2025-09-01 15:36:12,Good Job,0.9,D:\Internship Projects\hand-gesture-app\output-hand-gestures\snapshots\good_job_1756721172.jpg
+1756721172.6257505,2025-09-01 15:36:12,Rock On,0.9,D:\Internship Projects\hand-gesture-app\output-hand-gestures\snapshots\rock_on_1756721172.jpg
+1756721174.1600063,2025-09-01 15:36:14,Call Me,0.9,D:\Internship Projects\hand-gesture-app\output-hand-gestures\snapshots\call_me_1756721174.jpg
+1756721174.2229276,2025-09-01 15:36:14,Good Job,0.9,D:\Internship Projects\hand-gesture-app\output-hand-gestures\snapshots\good_job_1756721174.jpg
+1756721174.2583487,2025-09-01 15:36:14,Ok,0.9,D:\Internship Projects\hand-gesture-app\output-hand-gestures\snapshots\ok_1756721174.jpg
